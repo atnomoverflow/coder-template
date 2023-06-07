@@ -18,8 +18,15 @@ To facilitate the setup of RStudio without the need for a subdomain, Nginx is in
  
 ***📝 Note :*** 
 
-the start script set password user coder password to coder that means you can access the R studio as 
+The start script set password user coder password to coder that means you can access the R studio as :
 ```
-user: coder
-pass: coder
+user: coder ;
+pass: coder ;
 ```
+## Usage:
+
+First compress the files
+```
+tar -cvf coder_template.tar main.tf rstudio.tpl start_script.tpl
+```
+Then add the template using the interface or use the cli as you want.
