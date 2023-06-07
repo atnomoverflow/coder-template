@@ -30,3 +30,9 @@ First compress the files
 tar -cvf coder_template.tar main.tf rstudio.tpl start_script.tpl
 ```
 Then add the template using the interface or use the cli as you want.
+
+***📝 Note :*** 
+
+Make sure your ide is configured to format using LF. 
+
+![Screenshot of Nextcloud Notes](./img/format-LF.png)
