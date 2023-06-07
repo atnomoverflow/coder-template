@@ -17,6 +17,7 @@ The startup script included in this template streamlines the process of setting 
 To facilitate the setup of RStudio without the need for a subdomain, Nginx is installed and utilized to serve RStudio.
  
 ***📝 Note :*** 
+
 the start script set password user coder password to coder that means you can access the R studio as 
 ```
 user: coder
