@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo apt-get update
 # install code-server
 curl -fsSL https://code-server.dev/install.sh | sh
 mkdir -p ~/work
